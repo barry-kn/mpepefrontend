@@ -1,0 +1,51 @@
+.col {
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .card {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cardImgWrapper {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .cardImgTop {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .cardBody {
+    text-align: center;
+    padding: 0.5rem; /* Adjust padding as needed */
+  }
+  
+  .cardTitle {
+    font-size: 1rem; /* Adjust font size as needed */
+    color: black;
+    /* font-weight: bold; */
+    margin-bottom: 0.25rem; /* Adjust margin as needed */
+  }
+  
+  .cardText {
+    font-size: 0.9rem; /* Adjust font size as needed */
+    color: black;
+    /* color: #6c757d; */
+  }

@@ -1,0 +1,14 @@
+ /* Make cart spacing responsive on smaller screens */
+@media (max-width: 1000px) {
+    .responsiveCart {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Sticky navbar */
+  .stickyNavbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 1030; /* Keep navbar above other elements */
+  }
+  
